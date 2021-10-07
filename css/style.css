@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#main div {
+  width: 100%;
+  background-color: rgb(136, 159, 159);
+  text-align: center;
+  padding: 50px;
+}
+
+#title {
+  color: white;
+  font-size: 30px;
+}
+
+figure {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+figure img {
+  width: 25%;
+}
+
+#tribute-info {
+  width: 100%;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+#text-containers {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: initial;
+  width: 70%;
+  margin: auto;
+}
+
+#text-containers p {
+  width: 48%;
+  margin: auto;
+  text-align: left;
+}
+
+#link-paragrapgh {
+  color: teal;
+  font-weight: 500;
+  margin: 20px auto;
+}
+
+#cta {
+  background-color: teal;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#cta:hover {
+  background-color: yellowgreen;
+}
+
+@media (max-width: 300px) {
+  #title {
+    color: red;
+    font-size: 30px;
+  }
+}
