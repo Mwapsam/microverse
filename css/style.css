@@ -23,13 +23,15 @@
 }
 
 figure {
-  width: 100%;
+  width: 25%;
+  margin: auto;
   text-align: center;
   margin-top: 10px;
 }
 
 figure img {
-  width: 25%;
+  max-width: 100%;
+  display: block;
 }
 
 #tribute-info {
@@ -40,10 +42,9 @@ figure img {
 
 #text-containers {
   display: flex;
-
   flex-direction: row;
   justify-content: space-between;
-  align-items: initial;
+  align-items: flex-start;
   width: 70%;
   margin: auto;
 }
@@ -60,7 +61,7 @@ figure img {
   margin: 20px auto;
 }
 
-#cta {
+#tribute-link {
   background-color: teal;
   color: white;
   padding: 8px 15px;
@@ -68,13 +69,6 @@ figure img {
   text-decoration: none;
 }
 
-#cta:hover {
+#tribute-link:hover {
   background-color: yellowgreen;
-}
-
-@media (max-width: 300px) {
-  #title {
-    color: red;
-    font-size: 30px;
-  }
 }
